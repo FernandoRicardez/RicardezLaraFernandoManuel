@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{FB4A1AD7-C78B-4657-8D36-AA3FA72ABEFB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tablas10/ViewController.cs">
+    <Files>
+      <File FileName="tablas10/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="tablas10/ViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="tablas10/ViewController.cs" Line="73" Column="13" />
+      <File FileName="tablas10/Main.cs" Line="12" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.tablas10 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D62626DA-595B-4D1F-9E15-8E5816EED375">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.tablas10>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
