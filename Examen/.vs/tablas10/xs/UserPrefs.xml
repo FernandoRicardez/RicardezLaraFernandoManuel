@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{FB4A1AD7-C78B-4657-8D36-AA3FA72ABEFB}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="tablas10/ViewController.cs">
     <Files>
-      <File FileName="tablas10/ViewController.cs" Line="94" Column="29" />
+      <File FileName="tablas10/ViewController.cs" Line="42" Column="4" />
       <File FileName="tablas10/ViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="tablas10/Main.cs" Line="12" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.tablas10 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FFDF419C-DF28-4016-828A-50FD76685511" />

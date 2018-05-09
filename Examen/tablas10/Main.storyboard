@@ -92,7 +92,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Twitter" id="8et-xc-ssN">
-                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="MCE-Dw-uCC">
+                        <barButtonItem key="rightBarButtonItem" title="New tweets" style="plain" id="MCE-Dw-uCC">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="btnAdd_Clicked:" destination="BYZ-38-t0r" id="xhm-Uu-G7J"/>

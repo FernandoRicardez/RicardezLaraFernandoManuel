@@ -39,6 +39,7 @@ namespace tablas10
             TableView.RowHeight = UITableView.AutomaticDimension;
             TableView.EstimatedRowHeight = 300;
             twitterInitialized = initTwitter();
+
                      
 		}
 
@@ -104,22 +105,17 @@ namespace tablas10
 
 		partial void btnAdd_Clicked(NSObject sender)
         {
+            if (!string.IsNullOrEmpty(SearchBar.Text))
+			{
+				twitterAsync(SearchBar.Text);
+			}
 
-            var alert = UIAlertController.Create("Select limit", "if limit its an invalid number, 10 will be selected", UIAlertControllerStyle.Alert);
+		}
+		#endregion
 
-            alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, (UIAlertAction obj) =>
-            {
-                var query = alert.TextFields[0].Text;
-                var result = twitterAsync(query);
- 
-            }));
-            alert.AddTextField((UITextField obj) => obj.Placeholder = "Buscar...");
-          
-            PresentViewController(alert, true, TableView.ReloadData);
-                   
-        }
-
-        async System.Threading.Tasks.Task initTwitter()
+		#region tweeterFunctions
+  
+		async System.Threading.Tasks.Task initTwitter()
         {
             var auth = new ApplicationOnlyAuthorizer()
             {
@@ -150,7 +146,7 @@ namespace tablas10
             {
 
                 tweets = new List<TweetModelForCell>();
-
+				backgroundTweets = new List<TweetModelForCell>();
 				searchResponse.Statuses.ForEach(tweet =>
                                         tweets.Add(new TweetModelForCell(tweet.User.ProfileImageUrl, tweet.User.Name, tweet.Text)));
 				InvokeOnMainThread(() => TableView.ReloadData());

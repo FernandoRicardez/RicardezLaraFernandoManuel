@@ -8,6 +8,22 @@
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
 	<dict>
+		<key>MCE-Dw-uCC</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>8et-xc-ssN</string>
+					<string>MCE-Dw-uCC</string>
+				</array>
+				<key>message</key>
+				<string>Plain Style unsupported in a Navigation Item</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
 		<key>oSu-JF-48q</key>
 		<array>
 			<dict>
