@@ -134,11 +134,12 @@ namespace tablas10
 		async System.Threading.Tasks.Task twitterAsync(string query)
         {
 
-            var searchResponse =
-           await
-           (
+			var searchResponse =
+		   await
+		   (
 			from search in twitterCtx.Search
-            where search.Type == SearchType.Search && search.Query == query
+			where search.Type == SearchType.Search && search.Query == query
+				
             select search).SingleOrDefaultAsync();
 
 
@@ -148,7 +149,8 @@ namespace tablas10
                 tweets = new List<TweetModelForCell>();
 				backgroundTweets = new List<TweetModelForCell>();
 				searchResponse.Statuses.ForEach(tweet =>
-                                        tweets.Add(new TweetModelForCell(tweet.User.ProfileImageUrl, tweet.User.Name, tweet.Text)));
+				                                tweets.Add(
+					                                new TweetModelForCell(tweet.User.ProfileImageUrl, tweet.User.Name, tweet.Text, tweet.StatusID)));
 				InvokeOnMainThread(() => TableView.ReloadData());
             }
 
@@ -162,7 +164,8 @@ namespace tablas10
            await
            (from search in twitterCtx.Search
             where search.Type == SearchType.Search &&
-                  search.Query == query
+                  search.Query == query && 
+				search.MaxID == tweets[tweets.Count-1].IdFromTweet-1
             select search)
            .SingleOrDefaultAsync();
 
@@ -171,9 +174,9 @@ namespace tablas10
             if (searchResponse != null && searchResponse.Statuses != null)
             {
 				searchResponse.Statuses.ForEach(tweet => 
-		                                backgroundTweets.Add(new TweetModelForCell(tweet.User.ProfileImageUrl, tweet.User.Name, tweet.Text)));
+		                                backgroundTweets.Add(new TweetModelForCell(tweet.User.ProfileImageUrl, tweet.User.Name, tweet.Text,tweet.StatusID)));
 				InvokeOnMainThread(() => TableView.ReloadData());
-            }
+            } 
          
         }
   

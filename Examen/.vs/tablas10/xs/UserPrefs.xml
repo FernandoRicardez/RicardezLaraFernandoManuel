@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{FB4A1AD7-C78B-4657-8D36-AA3FA72ABEFB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="tablas10/ViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tablas10/Model/TweetModelForCell.cs">
     <Files>
-      <File FileName="tablas10/ViewController.cs" Line="42" Column="4" />
+      <File FileName="tablas10/ViewController.cs" Line="176" Column="148" />
       <File FileName="tablas10/ViewController.designer.cs" Line="1" Column="1" />
       <File FileName="tablas10/Main.cs" Line="12" Column="1" />
+      <File FileName="tablas10/Model/TweetModelForCell.cs" Line="11" Column="84" />
+      <File FileName="tablas10/TwitTableCell.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.tablas10 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FFDF419C-DF28-4016-828A-50FD76685511" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/fernando/Git/RicardezLaraFernandoManuel/RicardezLaraFernandoManuel/Examen/tablas10/ViewController.cs" relfile="tablas10/ViewController.cs" line="152" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
