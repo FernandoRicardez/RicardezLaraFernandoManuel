@@ -12,8 +12,10 @@ namespace tablas10
     public partial class ViewController : UIViewController, IUITableViewDataSource, IUITableViewDelegate, IUISearchBarDelegate
     {
         #region variables
-        TwitterContext twitterCtx;
-        List<TweetModelForCell> tweets = new List<TweetModelForCell>();
+		TwitterContext twitterCtx;
+		List<TweetModelForCell> tweets = new List<TweetModelForCell>();
+        List<TweetModelForCell> backgroundTweets = new List<TweetModelForCell>();
+		Task twitterInitialized;
 		#endregion
 
 
@@ -36,14 +38,12 @@ namespace tablas10
 
             TableView.RowHeight = UITableView.AutomaticDimension;
             TableView.EstimatedRowHeight = 300;
-            initTwitter();
-          
+            twitterInitialized = initTwitter();
+                     
+		}
 
-        }
-
-        #region tableViewDataSource
-
-        public UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
+		#region tableViewDataSource
+		public UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath) {
 
             var cell = tableView.DequeueReusableCell("TableCell", indexPath) as TwitTableCell;
             //cell.ProfileImage = UIImage.LoadFromData(NSData.FromUrl(NSUrl.FromString(tweets[indexPath.Row].ImgSource)));
@@ -57,8 +57,8 @@ namespace tablas10
         public nint NumberOfSections(UITableView tableView) => 1;
 
         public nint RowsInSection(UITableView tableView, nint section) => tweets.Count;
-        
-		#endregion
+        #endregion
+
 
 		#region tableViewDelegate
 		[Export("scrollViewDidScroll:")]
@@ -69,10 +69,16 @@ namespace tablas10
 				var height = scrollView.Frame.Size.Height;
                 var contentYoffset = scrollView.ContentOffset.Y;
                 var distanceFromBottom = scrollView.ContentSize.Height - contentYoffset;
-				if (distanceFromBottom < height - 20)
+				if (distanceFromBottom < height)
 				{
-					var c = lazyTwitterAsync("agua");
-            		TableView.ReloadData();
+
+                    foreach (var tweet in backgroundTweets)
+					{
+						tweets.Add(tweet);
+					}
+					InvokeOnMainThread(() => TableView.ReloadData());
+					var c = lazyTwitterAsync(SearchBar.Text);
+            		
 				}
             }
 		}      
@@ -84,6 +90,7 @@ namespace tablas10
 		public void TextChanged(UISearchBar searchBar, string searchText)
 		{
 			twitterAsync(searchText);
+			lazyTwitterAsync(searchText);
 		}
 	
 
@@ -163,11 +170,12 @@ namespace tablas10
             select search)
            .SingleOrDefaultAsync();
 
+			backgroundTweets = new List<TweetModelForCell>();
 
             if (searchResponse != null && searchResponse.Statuses != null)
             {
 				searchResponse.Statuses.ForEach(tweet => 
-		                                tweets.Add(new TweetModelForCell(tweet.User.ProfileImageUrl, tweet.User.Name, tweet.Text)));
+		                                backgroundTweets.Add(new TweetModelForCell(tweet.User.ProfileImageUrl, tweet.User.Name, tweet.Text)));
 				InvokeOnMainThread(() => TableView.ReloadData());
             }
          
