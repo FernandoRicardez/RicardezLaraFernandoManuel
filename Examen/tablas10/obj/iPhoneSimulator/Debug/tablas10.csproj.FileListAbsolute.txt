@@ -1,0 +1,63 @@
+/Users/ISSC611/Desktop/Manolo Miranda/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Desktop/Manolo Miranda/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_PartialAppManifest.items
+/Users/ISSC611/Desktop/Manolo Miranda/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/ISSC611/Desktop/Manolo Miranda/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/
+/Users/ISSC611/Desktop/Manolo Miranda/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.csprojResolveAssemblyReference.cache
+/Users/ISSC611/Desktop/Manolo Miranda/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.csproj.tablas10.exe.config
+/Users/ISSC611/Desktop/Manolo Miranda/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.csproj.CoreCompileInputs.cache
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_PartialAppManifest.items
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.csprojResolveAssemblyReference.cache
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.csproj.tablas10.exe.config
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.csproj.CoreCompileInputs.cache
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/tablas10.exe.config
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/tablas10.exe
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/tablas10.pdb
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/LinqToTwitter.xamarin.dll
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.dll
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Core.dll
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Interfaces.dll
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Linq.dll
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.PlatformServices.dll
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.xml
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.xml
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Interfaces.xml
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Core.xml
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Linq.xml
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.PlatformServices.xml
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.exe
+/Users/issc611/Desktop/fr/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.pdb
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/tablas10.exe.config
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/tablas10.exe
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/tablas10.pdb
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/LinqToTwitter.xamarin.dll
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.dll
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Core.dll
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Interfaces.dll
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Linq.dll
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.PlatformServices.dll
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.xml
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.xml
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Interfaces.xml
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Core.xml
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.Linq.xml
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/System.Reactive.PlatformServices.xml
+/Users/fernando/Projects/TablaMultiplicar/tablas10/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/actool/_PartialAppManifest.items
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/actool/_BundleResourceWithLogicalName.items
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/coremlc/_PartialAppManifest.items
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/optimized/
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.csprojResolveAssemblyReference.cache
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.exe.config
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.csproj.CoreCompileInputs.cache
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.exe
+/Users/fernando/Projects/TablaMultiplicar/tablas10/obj/iPhoneSimulator/Debug/tablas10.pdb
