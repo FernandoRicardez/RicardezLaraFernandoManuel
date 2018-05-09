@@ -9,7 +9,7 @@ using tablas10.Model;
 
 namespace tablas10
 {
-    public partial class ViewController : UIViewController, IUITableViewDataSource, IUITableViewDelegate
+    public partial class ViewController : UIViewController, IUITableViewDataSource, IUITableViewDelegate, IUISearchBarDelegate
     {
         #region variables
 
@@ -44,7 +44,7 @@ namespace tablas10
 
             TableView.RowHeight = UITableView.AutomaticDimension;
             TableView.EstimatedRowHeight = 300;
-            
+			SearchBar.Delegate = this;
             var tw = initTwitter();
           
 
@@ -67,18 +67,31 @@ namespace tablas10
 
         public nint RowsInSection(UITableView tableView, nint section) => cosas.Count;
 
-        #endregion
+		#endregion
 
-        #region tableViewDelegate
+		#region tableViewDelegate
 
 
-        #endregion
+		#endregion
 
-        #endregion
+		#region SearchBarDelegate
 
-        #region userInteraction
+        [Export("searchBar:textDidChange:")]
+		public void TextChanged(UISearchBar searchBar, string searchText)
+		{
+			twitterAsync(searchText);
+		}
+	
 
-        partial void btnAdd_Clicked(NSObject sender)
+       
+       
+		#endregion
+
+		#endregion
+
+		#region userInteraction
+
+		partial void btnAdd_Clicked(NSObject sender)
         {
 
             var alert = UIAlertController.Create("Select limit", "if limit its an invalid number, 10 will be selected", UIAlertControllerStyle.Alert);
